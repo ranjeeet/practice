@@ -1,0 +1,38 @@
+this is version 1 of my Git Commands in github
+
+git status :- For checking status of folder or file using git.
+
+git init :- For initializing a folder for git.
+
+git clone "SSH OR HTTPS ADDRESS"  :- To connect to a particular repo.
+
+git add . :- For staging the files using git.
+
+git commit -m "Any Name like version 1" :- For commiting files in git.
+
+git log :- To check the log of activities and commits.
+
+git config --global user.name "YOUR GITHUB USERNAME" :- For adding your github username.
+
+git config --global user.email "YOUR GITHUB EMAIL" :- For ading your email.
+
+//To se the changes
+
+git diff "FILENAME" :- for checking changes in a particular file.
+
+//To see changes after operation use
+
+git diff --staged FILENAME WITH EXTENSION 
+
+//Back to previous commit
+
+git status
+
+//Unstage:-
+
+git reset FILENAME WITH EXTENSION
+
+git checkout FILENAME WITH EXTENSION
+
+
+
