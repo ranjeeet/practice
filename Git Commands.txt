@@ -34,5 +34,46 @@ git reset FILENAME WITH EXTENSION
 
 git checkout FILENAME WITH EXTENSION
 
+//To ignore file
+
+touch.gitignore
+
+notepad.gitmore
+
+
+//To remove the history of a file use.
+
+git rm --cached
+
+//Branching
+
+gir branch BRANCHNAME:- Creates a new branch.
+
+git checkout BRANCHNAME:- To enter into file.
+
+git add .
+
+git commit -m "Version"
+
+git push origin BRANCHNAME
+
+git checkout master :- Changes the directory to master.
+
+git merge BRANCHNAME:- merges the file to master.
+
+git push -u origin master
+
+ 
+//To Delete a Branch
+
+git branch -d BRANCHNAME:- Deletes it from the system.
+
+git push origin --delete BRANCHNAME :-Deletes it from Github.
+
+git checkout .  :- It unstages all files at once.
+
+
+
+
 
 
